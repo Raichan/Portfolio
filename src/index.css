@@ -23,6 +23,27 @@ nav a {
   text-decoration: none;
 }
 
+nav ul {
+  margin: 13px 0 15px 8px;
+  float: right;
+  padding-inline-start: 5px;
+}
+
+nav li {
+  list-style-type: none;
+  text-align: right;
+}
+
+@media only screen and (min-width: 481px) {
+  nav ul {
+    margin: 15px;
+  }
+
+  nav li {
+    display: inline;
+  }
+}
+
 nav a:hover {
   text-decoration: underline;
 }
@@ -30,11 +51,6 @@ nav a:hover {
 nav h1 {
   margin: 5px;
   float: left;
-}
-
-nav ul {
-  margin: 15px;
-  float: right;
 }
 
 .gradient-background {

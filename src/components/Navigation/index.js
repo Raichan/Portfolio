@@ -16,7 +16,7 @@ const Nav = styled.nav.attrs({
   top: 0;
 `
 
-const NavbarItem = styled.span`
+const NavbarItem = styled.li`
     color: rgba(255,255,255,.5);
     margin-right: 20px;
 `
