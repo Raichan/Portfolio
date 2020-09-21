@@ -1,55 +1,49 @@
 import React, { Component } from 'react';
-import styled from 'styled-components'
-
-const Tag = styled.span`
-  border-radius: 8px;
-  background: rgb(18,128,42);
-  display: inline-block;
-  padding: 4px 16px;
-  margin: 0px 3px 3px 0px;
-  color: rgba(255,255,255,.9);
-`
+import Tag from '../Tag';
 
 class AboutMe extends Component {
   render() {
     return (
-      <div className="contentbox" id="AboutMe">
+      <div className="contentbox">
         <div className="section">
-          <h1 className="centered">About me</h1>
+          <h1 className="centered">
+            <span className="anchor" id="AboutMe"> &nbsp; </span>
+            About me</h1>
           <p>
-            Software developer by education, project manager and event organizer by experience. Looking for work, hoping to use my skills for a sustainable world and tackling climate change in one way or another.
+            I'm a frontend person who enjoys visually pleasing and user-friendly websites. I'm currently expanding into modern web technologies and have had fun with things like React and web animation. Backend isn't a problem either though, as I worked as a full stack developer for almost four years. I've also dealt with a lot of API integrations, and I enjoy making different services work together.
           </p>
-          Currently:
-          <ul>
-            <li>Recently graduated full-stack developer with ~4 years of work experience</li>
-            <li>Assistant Producer for an international live action roleplaying event</li>
-            <li>Organizing several major Finnish fan conventions</li>
-            <li>Climate activist looking for new ways to make a difference</li>
-          </ul>
+          <p>
+            I'm usually the one who makes sure things get done, either solo or in a group. My tasks were mostly independent work at my previous job, but I have also been a part of various group projects for the most part of my life. In my free time I participate in organizing various fan conventions and live action roleplaying games both in Finland and internationally, so I'm used to working in a team both as a member and a leader. This has also given me excellent project management skills - I love detailed schedules and colour-coded spreadsheets. 
+          </p>
+          <p>
+            Ever since my graduation in 2019 I have been figuring out what I want from life, and in the current state of the world I want to use my working hours to contribute to a greener world. Therefore I'm very interested in fields such as carbon compensation, circular economy and cleantech. The best cure for climate anxiety is climate action, and I want to be a part of the change we need.
+          </p>
         </div>
         <hr className="divider"></hr>
         <div className="section">
           <h3>Technologies</h3>
           <p><b>Active work experience</b><br/>
-          <Tag>C#</Tag>
-          <Tag>HTML</Tag>
-          <Tag>CSS</Tag>
-          <Tag>JavaScript</Tag>
-          <Tag>REST API</Tag>
-          <Tag>SQL</Tag>
+          <Tag text="C#"/>
+          <Tag text="HTML"/>
+          <Tag text="CSS"/>
+          <Tag text="SASS"/>
+          <Tag text="JavaScript"/>
+          <Tag text="REST API"/>
+          <Tag text="SQL"/>
           </p>
           <p><b>Personal projects</b><br/>
-          <Tag>PHP</Tag>
-          <Tag>WordPress</Tag>
-          <Tag>Joomla!</Tag>
-          <Tag>Node.js</Tag>
-          <Tag>React</Tag>
-          <Tag>Firebase</Tag>
+          <Tag text="PHP"/>
+          <Tag text="WordPress"/>
+          <Tag text="Joomla!"/>
+          <Tag text="Node.js"/>
+          <Tag text="React"/>
+          <Tag text="Firebase"/>
+          <Tag text="Git"/>
           </p>
           <p><b>Currently learning</b><br/>
-          <Tag>Angular</Tag>
-          <Tag>NoSQL</Tag>
-          <Tag>Web Animation</Tag>
+          <Tag text="Angular"/>
+          <Tag text="NoSQL"/>
+          <Tag text="Web Animation"/>
           </p>
         </div>
         <hr className="divider"></hr>

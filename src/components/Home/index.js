@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
 import portrait from './portrait.png';
+import $ from 'jquery';
 
 const Tagline = styled.div`
     font-size: 24px;
@@ -9,6 +10,22 @@ const Tagline = styled.div`
 `
 
 class Home extends Component {
+    componentDidMount() {
+        // Function from https://timoanttila.com/tutorials/animated-smooth-scrolling-effect
+        $('a[href*="#"]:not([href="#"])').click(function() {
+            if (window.location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && window.location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html, body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+              }
+            }
+          });
+      }
+
   render() {
     return (
       <div className="gradient-background">
