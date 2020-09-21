@@ -11,7 +11,7 @@ class Container extends Component {
         <div>
             <Home/>
             <AboutMe/>
-            <hr class="divider"/>
+            <hr className="divider"/>
             <Projects/>
             <Contact/>
         </div>

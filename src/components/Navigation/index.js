@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
+import { NavHashLink as Link } from 'react-router-hash-link';
 import styled from 'styled-components'
- 
+
 import * as ROUTES from '../../constants/routes';
  
 const Nav = styled.nav.attrs({

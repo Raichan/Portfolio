@@ -1,35 +1,34 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
 
-const Tag = styled.div`
+const Tag = styled.span`
   border-radius: 8px;
   background: rgb(18,128,42);
   display: inline-block;
   padding: 4px 16px;
-  margin: 0 3px;
+  margin: 0px 3px 3px 0px;
   color: rgba(255,255,255,.9);
 `
 
 class AboutMe extends Component {
   render() {
     return (
-      <div class="contentbox">
-        <div class="section">
-          <h1 class="centered">About me</h1>
+      <div className="contentbox" id="AboutMe">
+        <div className="section">
+          <h1 className="centered">About me</h1>
           <p>
             Software developer by education, project manager and event organizer by experience. Looking for work, hoping to use my skills for a sustainable world and tackling climate change in one way or another.
           </p>
-          <p>Currently:
-            <ul>
-              <li>Recently graduated full-stack developer with ~4 years of work experience</li>
-              <li>Assistant Producer for an international live action roleplaying event</li>
-              <li>Organizing several major Finnish fan conventions</li>
-              <li>Climate activist looking for new ways to make a difference</li>
-            </ul>
-          </p>
-          <hr class="divider"></hr>
+          Currently:
+          <ul>
+            <li>Recently graduated full-stack developer with ~4 years of work experience</li>
+            <li>Assistant Producer for an international live action roleplaying event</li>
+            <li>Organizing several major Finnish fan conventions</li>
+            <li>Climate activist looking for new ways to make a difference</li>
+          </ul>
         </div>
-        <div class="section">
+        <hr className="divider"></hr>
+        <div className="section">
           <h3>Technologies</h3>
           <p><b>Active work experience</b><br/>
           <Tag>C#</Tag>
@@ -53,8 +52,8 @@ class AboutMe extends Component {
           <Tag>Web Animation</Tag>
           </p>
         </div>
-        <hr class="divider"></hr>
-        <div class="section">
+        <hr className="divider"></hr>
+        <div className="section">
           <h3>Experience</h3>
           <div>
             <p><b>Assistant Producer</b><br/>
@@ -70,8 +69,8 @@ class AboutMe extends Component {
             <p>I worked as a full stack developer improving the enterprise resource planning software Haulbag and the customizable webshops connected to it. My job was mainly developing the software according to the customers’ needs, and as the only employee in the company I was in charge of many different areas. I also implemented integrations to several other systems. My master’s thesis focused on building a website for one of our customers and how the interfaces of Haulbag and WordPress can be used together to synchronize data between the systems and improve the site's performance.</p>
           </div>
         </div>
-        <hr class="divider"></hr>
-        <div class="section">
+        <hr className="divider"></hr>
+        <div className="section">
           <h3>Education</h3>
           <div>
             <p><b>Master of Science, Computer Science</b><br/>

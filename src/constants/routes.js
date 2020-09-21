@@ -1,4 +1,4 @@
 export const HOME = '/';
-export const ABOUTME = '/aboutme';
-export const PROJECTS = '/projects';
-export const CONTACT = '/contact';
+export const ABOUTME = '/#AboutMe';
+export const PROJECTS = '/#Projects';
+export const CONTACT = '/#Contact';

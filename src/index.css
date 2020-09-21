@@ -37,20 +37,30 @@ nav ul {
   float: right;
 }
 
-.social {
-  color: black;
-  margin: 0 10px;
-}
-
 .gradient-background {
   background: rgb(18,128,42);
   background: linear-gradient(90deg, rgba(18,128,42,1) 10%, rgba(118,222,141,1) 50%, rgba(18,128,42,1) 90%);
 }
 
+/* For mobile phones: */
 .contentbox {
   margin: 0 auto;
   padding: 20px 0;
-  max-width: 50%;
+  max-width: 90%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .contentbox {
+    max-width: 75%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .contentbox {
+    max-width: 50%;
+  }
 }
 
 .section{
@@ -68,6 +78,11 @@ nav ul {
   padding: 20px;
 }
 
+.social {
+  color: black;
+  margin: 0 5px;
+}
+
 .divider {
   border: 2px dashed rgb(18,128,42);
   width: 50%;
@@ -76,6 +91,23 @@ nav ul {
 
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-container > div {
+  padding-top: 10px;
+}
+
+@media only screen and (min-width: 673px) {
+  .flex-container {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  .flex-container > div {
+    padding-top: 0;
+  }
 }
 
 .portrait {
