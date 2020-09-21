@@ -13,12 +13,13 @@ class Home extends Component {
     componentDidMount() {
         // Function from https://timoanttila.com/tutorials/animated-smooth-scrolling-effect
         $('a[href*="#"]:not([href="#"])').click(function() {
-            if (window.location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && window.location.hostname == this.hostname) {
+            if (window.location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && window.location.hostname === this.hostname) {
               var target = $(this.hash);
+              var header = 100; // sticky header fix, hardcoded for now
               target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
               if (target.length) {
                 $('html, body').animate({
-                  scrollTop: target.offset().top
+                  scrollTop: target.offset().top - header
                 }, 1000);
                 return false;
               }

@@ -1,5 +1,4 @@
 import React from 'react';
-//import { Link } from 'react-router-dom';
 import { NavHashLink as Link } from 'react-router-hash-link';
 import styled from 'styled-components'
 
@@ -8,7 +7,6 @@ import * as ROUTES from '../../constants/routes';
 const Nav = styled.nav.attrs({
   className: 'navbar navbar-expand-lg navbar-dark gradient-background',
 })`
-  height: 50px;
   width: 100%;
   margin: 0;
   position: -webkit-sticky;
