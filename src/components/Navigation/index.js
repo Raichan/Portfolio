@@ -1,22 +1,44 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import styled from 'styled-components'
  
 import * as ROUTES from '../../constants/routes';
  
+const Nav = styled.nav.attrs({
+  className: 'navbar navbar-expand-lg navbar-dark gradient-background',
+})`
+  height: 50px;
+  width: 100%;
+  margin: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+`
+
+const NavbarItem = styled.span`
+    color: rgba(255,255,255,.5);
+    margin-right: 20px;
+`
+
+const Name = styled.h1`
+    margin-left: 15px;
+`
+
 const Navigation = () => (
-  <div>
+  <Nav>
+    <Name>Laura Sirola</Name>
     <ul>
-      <li>
+      <NavbarItem>
         <Link to={ROUTES.ABOUTME}>About me</Link>
-      </li>
-      <li>
+      </NavbarItem>
+      <NavbarItem>
         <Link to={ROUTES.PROJECTS}>Projects</Link>
-      </li>
-      <li>
+      </NavbarItem>
+      <NavbarItem>
         <Link to={ROUTES.CONTACT}>Contact</Link>
-      </li>
+      </NavbarItem>
     </ul>
-  </div>
+  </Nav>
 );
  
 export default Navigation;

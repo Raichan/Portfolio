@@ -11,3 +11,82 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav {
+  margin: 0;
+  padding: 10px 0;
+  color: rgba(255,255,255,.9);
+}
+
+nav a {
+  color: rgba(255,255,255,.9);
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav h1 {
+  margin: 5px;
+  float: left;
+}
+
+nav ul {
+  margin: 15px;
+  float: right;
+}
+
+.social {
+  color: black;
+  margin: 0 10px;
+}
+
+.gradient-background {
+  background: rgb(18,128,42);
+  background: linear-gradient(90deg, rgba(18,128,42,1) 10%, rgba(118,222,141,1) 50%, rgba(18,128,42,1) 90%);
+}
+
+.contentbox {
+  margin: 0 auto;
+  padding: 20px 0;
+  max-width: 50%;
+}
+
+.section{
+  margin: 0;
+  padding: 10px;
+}
+
+.centered {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.socialbuttons {
+  margin: 0;
+  padding: 20px;
+}
+
+.divider {
+  border: 2px dashed rgb(18,128,42);
+  width: 50%;
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.portrait {
+  vertical-align: bottom;
+}
+
+.banner {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.section a {
+  color: black;
+}
