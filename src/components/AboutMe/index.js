@@ -24,9 +24,9 @@ class AboutMe extends Component {
           <h3>Technologies</h3>
           <p><b>Active work experience</b><br/>
           <Tag text="C#"/>
+          <Tag text=".NET"/>
           <Tag text="HTML"/>
           <Tag text="CSS"/>
-          <Tag text="SASS"/>
           <Tag text="JavaScript"/>
           <Tag text="REST API"/>
           <Tag text="SQL"/>
@@ -54,13 +54,24 @@ class AboutMe extends Component {
             <i>The company P<br/>
             Apr 2019 – Present</i></p>
             <p>I'm currently freelancing as the Assistant Producer of College of Wizardry, an international live action roleplaying game set in Czocha Castle, Poland. In a four-day immersive experience, 135 participants and a crew of 30 turn the castle in to a magical college and live the life of its staff and students.</p>
-            <p>I have been an active participant in College of Wizardry events since 2015 and joined the crew in 2019. My areas of responsibility include event design, participant management and customer service as well as managing many practical aspects of the production. I also do a lot of copywriting including web content, participant materials and internal guides.</p>
+            <p>I have been an active participant in College of Wizardry events since 2015 and joined the crew in 2019. My areas of responsibility include event design, participant management and customer service as well as managing many practical aspects of the production. I also do a lot of copywriting including web content, participant materials and internal guides, and occasionally help our lead developer out with managing the website.<br/>
+              <Tag text="WordPress"/>
+              <Tag text="WooCommerce"/>
+            </p>
           </div>
           <div>
             <p><b>Software Engineer</b><br/>
             <i>Polea Oy<br/>
             May 2016 – Sep 2019</i></p>
-            <p>I worked as a full stack developer improving the enterprise resource planning software Haulbag and the customizable webshops connected to it. My job was mainly developing the software according to the customers’ needs, and as the only employee in the company I was in charge of many different areas. I also implemented integrations to several other systems. My master’s thesis focused on building a website for one of our customers and how the interfaces of Haulbag and WordPress can be used together to synchronize data between the systems and improve the site's performance.</p>
+            <p>I worked as a full stack developer improving the enterprise resource planning software Haulbag and the customizable webshops connected to it. My job was mainly developing the software according to the customers’ needs, and as the only employee in the company I was in charge of many different areas. I also implemented integrations to several other systems. My master’s thesis focused on building a website for one of our customers and how the interfaces of Haulbag and WordPress can be used together to synchronize data between the systems and improve the site's performance.<br/>
+              <Tag text="C#"/>
+              <Tag text=".NET"/>
+              <Tag text="HTML"/>
+              <Tag text="CSS"/>
+              <Tag text="JavaScript"/>
+              <Tag text="REST API"/>
+              <Tag text="SQL"/>
+            </p>
           </div>
         </div>
         <hr className="divider"></hr>

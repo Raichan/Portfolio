@@ -36,7 +36,7 @@ class Projects extends Component {
             <Tag text="CSS"/>
             <Tag text="Bootstrap"/>
             <Tag text="JavaScript"/>
-            <Tag text="PostgreSQL"/>
+            <Tag text="SQL"/>
           </p>
         </div>
       </div>
