@@ -16,7 +16,7 @@ class AboutMe extends Component {
             I'm usually the one who makes sure things get done, either solo or in a group. My tasks were mostly independent work at my previous job, but I have also been a part of various group projects for the most part of my life. In my free time I participate in organizing various fan conventions and live action roleplaying games both in Finland and internationally, so I'm used to working in a team both as a member and a leader. This has also given me excellent project management skills - I love detailed schedules and colour-coded spreadsheets. 
           </p>
           <p>
-            Ever since my graduation in 2019 I have been figuring out what I want from life, and in the current state of the world I want to use my working hours to contribute to a greener world. Therefore I'm very interested in fields such as carbon compensation, circular economy and cleantech. The best cure for climate anxiety is climate action, and I want to be a part of the change we need.
+            Ever since my graduation in 2019 I have been figuring out what I want from life, and in the current state of the world I want to use my working hours to contribute to a greener future. Therefore I'm very interested in fields such as carbon compensation, circular economy and cleantech. The best cure for climate anxiety is climate action, and I want to be a part of the change we need.
           </p>
         </div>
         <hr className="divider"></hr>
