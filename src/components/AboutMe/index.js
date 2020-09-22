@@ -60,7 +60,7 @@ class AboutMe extends Component {
             </p>
           </div>
           <div>
-            <p><b>Software Engineer</b><br/>
+            <p><b>Software Developer</b><br/>
             <i>Polea Oy<br/>
             May 2016 – Sep 2019</i></p>
             <p>I worked as a full stack developer improving the enterprise resource planning software Haulbag and the customizable webshops connected to it. My job was mainly developing the software according to the customers’ needs, and as the only employee in the company I was in charge of many different areas. I also implemented integrations to several other systems. My master’s thesis focused on building a website for one of our customers and how the interfaces of Haulbag and WordPress can be used together to synchronize data between the systems and improve the site's performance.<br/>
