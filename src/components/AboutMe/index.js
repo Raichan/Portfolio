@@ -68,7 +68,10 @@ class AboutMe extends Component {
               <Tag text=".NET"/>
               <Tag text="HTML"/>
               <Tag text="CSS"/>
+              <Tag text="Sass"/>
+              <Tag text="Bootstrap"/>
               <Tag text="JavaScript"/>
+              <Tag text="jQuery"/>
               <Tag text="REST API"/>
               <Tag text="SQL"/>
             </p>
