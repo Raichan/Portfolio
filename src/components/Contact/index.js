@@ -32,7 +32,7 @@ class Contact extends Component {
             className="linkedin social">
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
-          <a href="https://www.facebook.com/rairaichan/"
+          <a href="https://www.facebook.com/LauraSirola/"
             className="facebook social">
             <FontAwesomeIcon icon={faFacebook} size="2x" />
           </a>
